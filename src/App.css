@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header, section, footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.img {
+  margin: 0 auto;
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f172a; 
+  color: #f8fafc; 
+}
+
+* {
+  box-sizing: border-box;
+}
